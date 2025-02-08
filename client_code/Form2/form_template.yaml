@@ -5,3 +5,5 @@ components:
   type: Label
 container: {type: ColumnPanel}
 is_package: true
+layout_metadata: {description: Unit test page}
+slots: {}
