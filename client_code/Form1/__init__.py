@@ -14,7 +14,7 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     # Display a popup that says 'You clicked the button'
     #alert("You clicked the button")
-    name = self.name_box.text
+    name = self.repo_path_box.text
     # Show a popup that says 'Feedback submitted!'
     Notification("Job(s) started !").show()
     self.clear_inputs()
