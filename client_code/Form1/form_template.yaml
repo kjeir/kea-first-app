@@ -1,9 +1,10 @@
 components:
 - components:
   - components:
-    - layout_properties: {grid_position: 'EKXYPU,GPOXZX'}
+    - data_bindings: []
+      layout_properties: {grid_position: 'EKXYPU,GPOXZX'}
       name: label_1
-      properties: {text: Feedback form}
+      properties: {align: center, bold: true, font_size: 23, italic: true, text: PSEC Build-O-Raptor}
       type: Label
     - layout_properties: {grid_position: 'YBJZEB,JTHSJI XBEDMI,RLHNCL'}
       name: label_2
