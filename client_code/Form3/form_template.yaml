@@ -18,12 +18,13 @@ components:
   properties: {}
   type: FlowPanel
 - components:
-  - layout_properties: {grid_position: 'WJSIIC,ZYCQOY'}
-    name: link_1
+  - event_bindings: {click: build_link_click}
+    layout_properties: {grid_position: 'WJSIIC,ZYCQOY'}
+    name: build_link
     properties: {text: Build}
     type: Link
   - layout_properties: {grid_position: 'IUFWSQ,JPYCCJ'}
-    name: link_2
+    name: unit_test_link
     properties: {text: Unit test}
     type: Link
   layout_properties: {slot: left-nav}

@@ -26,14 +26,6 @@ class Form1(Form1Template):
     #self.feedback_box.text = ""
     pass
 
-  def unittest_click(self, **event_args):
-    """This method is called when the link is clicked"""
-    pass
-
-  def link_1_click(self, **event_args):
-    """This method is called when the link is clicked"""
-    open_form('Form1')
-
-  def link_2_click(self, **event_args):
+  def unit_test_link_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form('Form3')
