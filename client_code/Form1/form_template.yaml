@@ -8,9 +8,9 @@ components:
       type: Label
     - layout_properties: {grid_position: 'YBJZEB,JTHSJI XBEDMI,RLHNCL'}
       name: label_2
-      properties: {text: 'Name:'}
+      properties: {text: 'SE FW repo path:'}
       type: Label
-    - layout_properties: {grid_position: 'YBJZEB,JTHSJI YYIKUF,PPJOSQ'}
+    - layout_properties: {grid_position: 'YBJZEB,JTHSJI ULQDYB,MPZTIU'}
       name: label_3
       properties: {text: 'Email:'}
       type: Label
@@ -44,7 +44,7 @@ components:
       type: DropDown
     layout_properties: {grid_position: 'NRCVJH,JOJAQE'}
     name: outlined_card_1
-    properties: {role: outlined-card}
+    properties: {col_widths: '{"JTHSJI":10,"QPZBHZ":50}', role: outlined-card}
     type: ColumnPanel
   - components:
     - layout_properties: {grid_position: 'HUAXCF,SDRRQU'}
@@ -62,7 +62,7 @@ components:
   - event_bindings: {click: submit_button_click}
     layout_properties: {grid_position: 'DHBFAP,IEHCLC'}
     name: submit_button
-    properties: {role: filled-button, text: Submit}
+    properties: {role: filled-button, text: Doit !}
     type: Button
   layout_properties: {slot: default}
   name: content_panel
