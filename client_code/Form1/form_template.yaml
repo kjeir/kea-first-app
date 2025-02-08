@@ -64,7 +64,8 @@ components:
     name: build
     properties: {bold: false, italic: false, text: Build}
     type: Link
-  - layout_properties: {grid_position: 'JDGPVQ,FRULVS'}
+  - event_bindings: {click: unittest_click}
+    layout_properties: {grid_position: 'JDGPVQ,FRULVS'}
     name: unittest
     properties: {text: Unit test}
     type: Link
