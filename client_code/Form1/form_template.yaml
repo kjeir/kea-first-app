@@ -47,13 +47,13 @@ components:
     properties: {role: outlined-card}
     type: ColumnPanel
   - components:
-    - layout_properties: {grid_position: 'DCOTVH,ZQLTAD'}
-      name: radio_button_2
-      properties: {text: radio_button_2}
-      type: RadioButton
-    - layout_properties: {grid_position: 'DLOKHG,CZSRKF'}
+    - layout_properties: {grid_position: 'HUAXCF,SDRRQU'}
       name: radio_button_3
-      properties: {text: radio_button_3}
+      properties: {group_name: radioGroup2, text: radio_button_3}
+      type: RadioButton
+    - layout_properties: {grid_position: 'HUAXCF,KRWUDP'}
+      name: radio_button_2
+      properties: {group_name: radioGroup2, text: radio_button_2}
       type: RadioButton
     layout_properties: {grid_position: 'KHMPQC,JGMAZK'}
     name: outlined_card_2
