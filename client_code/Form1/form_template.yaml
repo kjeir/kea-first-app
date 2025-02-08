@@ -79,7 +79,8 @@ components:
     name: link_1
     properties: {text: Build}
     type: Link
-  - layout_properties: {grid_position: 'FCFATF,DXZDVV'}
+  - event_bindings: {click: link_2_click}
+    layout_properties: {grid_position: 'FCFATF,DXZDVV'}
     name: link_2
     properties: {text: Unit test}
     type: Link
