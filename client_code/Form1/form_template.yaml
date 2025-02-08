@@ -10,9 +10,9 @@ components:
       name: label_2
       properties: {text: 'SE FW repo path:'}
       type: Label
-    - layout_properties: {grid_position: 'YBJZEB,QPZBHZ'}
+    - layout_properties: {grid_position: 'YBJZEB,QPZBHZ', row_background: 'theme:Primary'}
       name: repo_path_box
-      properties: {text: /home/work/se_firmware}
+      properties: {role: null, text: /home/work/se_firmware}
       type: TextBox
     layout_properties: {grid_position: 'AYVNZA,KWYBSW'}
     name: outlined_card_1
