@@ -11,8 +11,8 @@ components:
       properties: {text: 'SE FW repo path:'}
       type: Label
     - layout_properties: {grid_position: 'YBJZEB,QPZBHZ'}
-      name: name_box
-      properties: {}
+      name: repo_path_box
+      properties: {text: /home/work/se_firmware}
       type: TextBox
     layout_properties: {grid_position: 'AYVNZA,KWYBSW'}
     name: outlined_card_1
@@ -21,7 +21,7 @@ components:
   - components:
     - layout_properties: {grid_position: 'MNAKUW,BVQTOG SQIMYJ,RFEEIY'}
       name: radio_button_2
-      properties: {group_name: radioGroup1, text: release}
+      properties: {group_name: radioGroup1, selected: true, text: release}
       type: RadioButton
     - layout_properties: {grid_position: 'MNAKUW,BVQTOG QIJLGF,ONWACR'}
       name: radio_button_4
@@ -29,7 +29,7 @@ components:
       type: RadioButton
     - layout_properties: {grid_position: 'MNAKUW,HNYYXL NWFSGE,IBJVLM'}
       name: radio_button_3
-      properties: {group_name: radioGroup2, text: Generate & build}
+      properties: {group_name: radioGroup2, selected: true, text: Generate & build}
       type: RadioButton
     - layout_properties: {grid_position: 'MNAKUW,HNYYXL NAINCO,MTOBJM'}
       name: radio_button_5
@@ -37,7 +37,7 @@ components:
       type: RadioButton
     - layout_properties: {grid_position: 'MNAKUW,SPIYTO PRJHBN,SZTOOJ'}
       name: radio_button_6
-      properties: {group_name: radioGroup3, text: FPGA}
+      properties: {group_name: radioGroup3, selected: true, text: FPGA}
       type: RadioButton
     - layout_properties: {grid_position: 'MNAKUW,SPIYTO SSCICN,DJREAD'}
       name: radio_button_7
