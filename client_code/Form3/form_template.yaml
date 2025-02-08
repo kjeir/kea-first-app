@@ -63,6 +63,6 @@ container:
 is_package: true
 slots:
   unit_test_slot:
-    index: 1
-    set_layout_properties: {grid_position: 'LRXBNS,JMSQXI'}
+    index: 0
+    set_layout_properties: {grid_position: 'IMGBUL,RTKOJE'}
     target: {name: content_panel, type: container}
