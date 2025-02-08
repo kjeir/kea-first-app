@@ -29,3 +29,7 @@ class Form1(Form1Template):
   def unittest_click(self, **event_args):
     """This method is called when the link is clicked"""
     pass
+
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form('Form2')

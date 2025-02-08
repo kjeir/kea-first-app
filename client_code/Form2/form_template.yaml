@@ -6,4 +6,8 @@ components:
 container: {type: ColumnPanel}
 is_package: true
 layout_metadata: {description: Unit test page}
-slots: {}
+slots:
+  unit_test_slot:
+    index: 0
+    set_layout_properties: {grid_position: 'JOYYVE,NWAXRY'}
+    target: {name: '', type: container}
