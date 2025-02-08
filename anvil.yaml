@@ -1,6 +1,6 @@
 allow_embedding: false
 dependencies: []
-metadata: {title: KeaApp#1}
+metadata: {title: PSEC}
 name: Kea first app
 native_deps: null
 package_name: Kea_first_app
