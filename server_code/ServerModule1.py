@@ -1,4 +1,3 @@
-import anvil.email
 import anvil.server
 
 # This is a server module. It runs on the Anvil server,
@@ -12,19 +11,3 @@ import anvil.server
 # def say_hello(name):
 #   print("Hello, " + name + "!")
 #   return 42
-#
-#@anvil.server.callable
-#def send_feedback(name, email, feedback):
-#  # Send yourself an email each time feedback is submitted
-#  anvil.email.send(to="kjell.e.andersen@gmail.com", # Change this to your email address and remove the #!
-#                   subject=f"Feedback from {name}",
-#                   text=f"""
-#                   
-#  A new person has filled out the feedback form!
-#
-#
-#  Name: {name}
-#  Email address: {email}
-#  Feedback:
-#  {feedback}
-#  """)
