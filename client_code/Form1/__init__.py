@@ -16,9 +16,9 @@ class Form1(Form1Template):
     #alert("You clicked the button")
     name = self.repo_path_box.text
     # Show a popup that says 'Feedback submitted!'
-    Notification("Job(s) started !").show()
-    self.clear_inputs()
-    
+    Notification("Job(ss) started !").show()
+    #self.clear_inputs()
+        
   def clear_inputs(self):
     # Clear our three text boxes
     #self.name_box.text = ""
@@ -29,3 +29,11 @@ class Form1(Form1Template):
   def unit_test_link_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form('Form3')
+
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    pass
+
+def reset_links(self, **event_args):
+  self.build_link.role = ''
+  self.unit_test_link.role = ''
