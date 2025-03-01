@@ -1,4 +1,5 @@
 import anvil.server
+import subprocess
 
 # This is a server module. It runs on the Anvil server,
 # rather than in the user's browser.
@@ -7,7 +8,7 @@ import anvil.server
 # them with @anvil.server.callable.
 # Here is an example - you can replace it with your own:
 #
-# @anvil.server.callable
-# def say_hello(name):
-#   print("Hello, " + name + "!")
-#   return 42
+@anvil.server.callable
+def start_jobs():
+  command = ["/usr/bin/mate-terminal", "-e", "/home/kean/doit.sh /home/kean/tmp ls -m"]
+  subprocess.Popen(command, start_new_session=True)

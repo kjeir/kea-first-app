@@ -1,8 +1,6 @@
 from ._anvil_designer import Form1Template
 from anvil import *
 import anvil.server
-import subprocess
-
 
 class Form1(Form1Template):
   def __init__(self, **properties):
@@ -14,9 +12,8 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     # Display a popup that says 'You clicked the button'
     #alert("You clicked the button")
-    command = ["mate-terminal", "-e", "/home/kean/doit.sh /home/kean/tmp ls -m"]
-    subprocess.Popen(command, start_new_session=True)
     name = self.repo_path_box.text
+    anvil.server.call('start_jobs')
     # Show a popup
     Notification("Job(ss) started !").show()
     #self.clear_inputs()
