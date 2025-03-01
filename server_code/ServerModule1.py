@@ -12,3 +12,5 @@ import subprocess
 def start_jobs():
   command = ["/usr/bin/mate-terminal", "-e", "/home/kean/doit.sh /home/kean/tmp ls -m"]
   subprocess.Popen(command, start_new_session=True)
+  subprocess.Popen(command, start_new_session=True)
+  
