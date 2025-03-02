@@ -12,7 +12,7 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     # Display a popup that says 'You clicked the button'
     #alert("You clicked the button")
-    name = self.repo_path_box.text
+    #name = self.repo_path_box.text
     anvil.server.call('start_jobs')
     # Show a popup
     #Notification("Job(ss) started !").show()
