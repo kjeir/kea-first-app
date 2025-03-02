@@ -15,7 +15,7 @@ class Form1(Form1Template):
     name = self.repo_path_box.text
     anvil.server.call('start_jobs')
     # Show a popup
-    Notification("Job(ss) started !").show()
+    #Notification("Job(ss) started !").show()
     #self.clear_inputs()
 
   def clear_inputs(self):
