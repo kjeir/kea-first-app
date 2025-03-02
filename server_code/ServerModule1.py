@@ -18,4 +18,6 @@ def start_jobs():
 
   command = ["c:/cygwin64/bin/mintty.exe", "--exec", "c:/cygwin64/bin/bash", "-lic", "c:/tmp/Raptor/doit.sh c:/work/gsdk/extension/se_firmware pipenv run make-rom-dev RAINIER --no_docker --compiler gcc release -j -B"]
   subprocess.Popen(command, start_new_session=True)
-  
+
+
+#pipenv run unit-rom --target rainier --ip 10.5.168.100 --compiler gcc --tag unit_test --v --build-config debug --runonly --device_type fpga --test test_command_qspi_operations
